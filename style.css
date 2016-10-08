@@ -1,0 +1,23 @@
+/* CSS Document */
+.constrain {
+  max-width: 1060px;
+  margin: 5px auto;
+  border-radius: 10px;
+  border: 2px solid #ff9800;
+  padding: 1em; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  display: none;
+  cursor: pointer; }
+
+#detail1, #detail2, #detail3, #detail4 {
+  background: #C8E6C9;
+  padding-left: 2em;
+  display: none;
+  color: #212121;
+  border-radius: 10px;
+  border: 1px solid #ff9800;
+  font-size: 1.3em; }

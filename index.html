@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="style.css">
+<title>Introducing JQuery</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){  
+        $("#head1").fadeIn(1000);
+        $("#head2").fadeIn(3000);
+        $("#head3").fadeIn(5000);
+        $("#head4").fadeIn(7000);
+        
+        
+        $("#head1").click(function(){
+            $("#detail1").slideToggle("slow");
+        })
+        $("#head2").click(function(){
+            $("#detail2").slideToggle("slow");
+        })
+        $("#head3").click(function(){
+            $("#detail3").slideToggle("slow");
+        })
+        $("#head4").click(function(){
+            $("#detail4").slideToggle("slow");
+        })
+    });
+    
+    
+</script>
+</head>
+
+<body>
+<main class="w3-conatainer constrain w3-green">
+    <h1>Why Learn JQuery?</h1>
+    <h2 id ="head1" class ="w3-green">Speeds Development</h2>
+    <div id="detail1">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare </p>
+    </div>
+    <h2 id="head2" class = "w3-green">Most commonly used JavaScript Library</h2>
+    <div id="detail2">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare </p>
+    </div>
+    <h2 id ="head3" class = "w3-green">It is free</h2>
+    <div id="detail3">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare </p>
+    </div>
+    <h2 id = "head4" class = "w3-green">It works in all browsers</h2>
+    <div id="detail4">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare </p>
+    </div>
+</main>
+</body>
+</html>

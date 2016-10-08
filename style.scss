@@ -1,0 +1,35 @@
+/* CSS Document */
+
+$darkgreen: #388E3C;
+$midgreen: #4caf50;
+$lightgreen: #C8E6C9;
+$primarytext: #212121;
+$accentorange: #ff9800;
+
+.constrain{
+    max-width: 1060px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: 2px solid $accentorange;
+    padding: 1em;
+   
+}
+
+h1 {
+  text-align: center; 
+}
+
+h2{
+    display: none;
+    cursor:pointer;
+}
+#detail1, #detail2, #detail3, #detail4{
+    background: $lightgreen;
+    padding-left: 2em;
+    display: none;
+    color:$primarytext;
+    border-radius: 10px;
+    border: 1px solid $accentorange;
+    font-size: 1.3em;
+    
+}
